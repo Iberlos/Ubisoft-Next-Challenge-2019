@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{bb808ab4-77d7-48e6-96dc-b79f84459ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses">
+      <UniqueIdentifier>{5c5b6188-ee11-4dee-b917-8112980cc5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\GOs">
+      <UniqueIdentifier>{4a2852c6-b26e-4a43-88a4-766350f7ebb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\Mesh">
+      <UniqueIdentifier>{9394aaf6-0243-4efa-b583-749cd1c5947c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\GOs\ControlledGOs">
+      <UniqueIdentifier>{9a579e19-ada8-4802-9e46-fcd67dfae203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\GOs\ControlledGOs\Player_GO">
+      <UniqueIdentifier>{435e6823-5a4b-475b-8043-e7bed70f71d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\Scene">
+      <UniqueIdentifier>{6c13e77d-2a11-4a1a-be41-9fe8560bc27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\Pool">
+      <UniqueIdentifier>{88a31270-21a8-4506-ac58-2b229b9321ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AStarPathfinder">
+      <UniqueIdentifier>{0dcb0cde-102a-40b8-9dbe-8786affc65a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController">
+      <UniqueIdentifier>{65cdbd4c-a0e3-4b45-9695-05216517f504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers">
+      <UniqueIdentifier>{7575c622-5aec-40f5-8d82-c5febcc989e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Black_Controller">
+      <UniqueIdentifier>{5bd0f375-cc96-4c29-b490-2e2d97329c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Red_Controller">
+      <UniqueIdentifier>{09270ecd-2399-43e8-bffd-410c5863bce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Green_Controller">
+      <UniqueIdentifier>{9f2b55b8-f314-44da-b740-859d4381e739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Blue_Controller">
+      <UniqueIdentifier>{1bba7a68-fac1-4cad-b3e5-9ebb5f353d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Cyan_Controller">
+      <UniqueIdentifier>{99454157-8522-4472-8be7-b74cd982b219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Yellow_Controller">
+      <UniqueIdentifier>{2cdbf04c-e2c5-4746-a87e-5ce9b27dc2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Magenta_Controller">
+      <UniqueIdentifier>{1043f45a-982d-4a89-ad60-a796595c94f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\Mom_Controller">
+      <UniqueIdentifier>{380461b0-f8dc-4e4d-be31-f195595b812d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\AIController\AIControllers\White_Controller">
+      <UniqueIdentifier>{5347eb91-d3a8-49ed-8e89-2fff213d5860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\GOs\ControlledGOs\AI_GO">
+      <UniqueIdentifier>{83feabe5-0de4-4f20-bec5-6145b9ceeb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyClasses\GOs\ControlledGOs\AI_GO\AI_GOs">
+      <UniqueIdentifier>{67615dcf-1f97-4684-9621-fcc1ece68bf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleTileMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleGameObject.h">
+      <Filter>Source Files\MyClasses\GOs</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleControlledGameObject.h">
+      <Filter>Source Files\MyClasses\GOs\ControlledGOs</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleAIControlledGameObject.h">
+      <Filter>Source Files\MyClasses\GOs\ControlledGOs\AI_GO</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimplePlayer.h">
+      <Filter>Source Files\MyClasses\GOs\ControlledGOs\Player_GO</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleMesh.h">
+      <Filter>Source Files\MyClasses\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleScene.h">
+      <Filter>Source Files\MyClasses\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimplePool.h">
+      <Filter>Source Files\MyClasses\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleASPathfinder.h">
+      <Filter>Source Files\MyClasses\AStarPathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\SimpleAIController.h">
+      <Filter>Source Files\MyClasses\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\Controllers.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\GreenController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Green_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\BlackController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Black_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\BlueController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Blue_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\CyanController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Cyan_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\MagentaController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Magenta_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\MomController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Mom_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\WhiteController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\White_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\YellowController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Yellow_Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClasses\RedController.h">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Red_Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App\app.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleTileMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleGameObject.cpp">
+      <Filter>Source Files\MyClasses\GOs</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleControlledGameObject.cpp">
+      <Filter>Source Files\MyClasses\GOs\ControlledGOs</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleAIControlledGameObject.cpp">
+      <Filter>Source Files\MyClasses\GOs\ControlledGOs\AI_GO</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimplePlayer.cpp">
+      <Filter>Source Files\MyClasses\GOs\ControlledGOs\Player_GO</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleMesh.cpp">
+      <Filter>Source Files\MyClasses\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleScene.cpp">
+      <Filter>Source Files\MyClasses\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimplePool.cpp">
+      <Filter>Source Files\MyClasses\Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleASPathfinder.cpp">
+      <Filter>Source Files\MyClasses\AStarPathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\SimpleAIController.cpp">
+      <Filter>Source Files\MyClasses\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\GreenController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Green_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\BlackController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Black_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\BlueController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Blue_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\CyanController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Cyan_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\MagentaController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Magenta_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\MomController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Mom_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\WhiteController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\White_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\YellowController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Yellow_Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClasses\RedController.cpp">
+      <Filter>Source Files\MyClasses\AIController\AIControllers\Red_Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
